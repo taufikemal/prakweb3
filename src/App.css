@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+.warna {
+  background:rgb(85, 249, 255);
+  border : 4px blue;
+  text-align: center;
+  margin: 20px;
+  padding:20px;
+  font-size: 2em;
+}
+
+.button {
+  background-color: #5b64da; /* Green */
+  border: none;
+  color: white;
+  width: 200px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
