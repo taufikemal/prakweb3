@@ -4,9 +4,9 @@ import Ppw3 from './Ppw3';
 function App() {
   return (
     <div>
-      <Ppw3 nama="Praktikum Pemograman Web 3" jenis="Praktikum"/>
-      <Ppw3 nama="Pemograman Struktur Data" jenis="Praktikum"/>
-      <Ppw3 nama="Algoritma dan Pemograman" jenis="Perkuliahan"/>
+      <Ppw3 barang="Monitor" jenis="Elektronik" />
+      <Ppw3 barang="Keyboard" jenis="Mekanik" />
+      <Ppw3 barang="Spray" jenis="Cleaner" />
     </div>
   );
 }
