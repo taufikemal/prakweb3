@@ -50,6 +50,9 @@
   border-radius: 16px;
 }
 
+.kartu{
+  max-width: 700px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

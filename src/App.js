@@ -1,12 +1,9 @@
-import './App.css';
-import Ppw3 from './Ppw3';
+import Week9 from './Praktikum/Week9'
 
 function App() {
   return (
     <div>
-      <Ppw3 barang="Monitor" jenis="Elektronik" />
-      <Ppw3 barang="Keyboard" jenis="Mekanik" />
-      <Ppw3 barang="Spray" jenis="Cleaner" />
+      <Week9 />
     </div>
   );
 }
