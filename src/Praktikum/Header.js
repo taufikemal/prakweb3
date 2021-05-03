@@ -7,7 +7,8 @@ class Header extends Component {
 		Moment.updateLocale('id', idLocale);
 		return (
 			<div>
-				<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/todo-list-1725496-1465657.png" alt="avatar" />
+				<img src="https://image.freepik.com/free-vector/company-employees-planning-task-brainstorming_74855-6316.jpg"
+				alt="avatar" />
 				<h3>Log Aktivitas Harian</h3>
 				<p>{Moment().format('dddd')} {Moment().format('LLL')}</p>
 			</div>
