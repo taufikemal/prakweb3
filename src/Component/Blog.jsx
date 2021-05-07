@@ -31,6 +31,7 @@ function ArticleCard(props) {
 class Blog extends Component {
         render(){
         return(
+          <div className="container">
             <div className="row mb-2">
                 <div className="col-md-6">
                     <hr/>
@@ -77,6 +78,7 @@ class Blog extends Component {
                     />
                 </div>
             </div>
+          </div>
         );
     }
 }

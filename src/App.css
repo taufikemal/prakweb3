@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+li {
+  list-style: none;
+}
+
 .warna {
   color:white;
   background: rgb(137, 184, 255);

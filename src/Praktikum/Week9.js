@@ -4,7 +4,6 @@ import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Week9 extends React.Component {
-
 	constructor(){
 		super()
 		this.state = {
@@ -21,7 +20,7 @@ class Week9 extends React.Component {
 				users: users.data
 			})
 		})
-  }
+	}
 
   render(){
 		const { users } = this.state
