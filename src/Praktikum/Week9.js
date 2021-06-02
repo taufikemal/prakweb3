@@ -22,10 +22,10 @@ class Week9 extends React.Component {
 		})
 	}
 
-  render(){
+	render(){
 		const { users } = this.state
     return(
-  	  <div>
+			<div>
         { this.state.users.map( user=> {
 					return (
 						<div className="container">
@@ -42,7 +42,7 @@ class Week9 extends React.Component {
 						</div>
 					)
 				})}
-    	</div>
+			</div>
     )
   }
 }
